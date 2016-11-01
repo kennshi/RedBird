@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		151CC0621DB38985007F3E18 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 151CC0611DB38985007F3E18 /* WebKit.framework */; };
+		1540F5CD1DB217D400BCF825 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1540F5CC1DB217D400BCF825 /* AppDelegate.m */; };
+		1540F5D01DB217D400BCF825 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1540F5CF1DB217D400BCF825 /* main.m */; };
+		1540F5D21DB217D400BCF825 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1540F5D11DB217D400BCF825 /* Assets.xcassets */; };
+		1540F5D51DB217D400BCF825 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1540F5D31DB217D400BCF825 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		151CC0611DB38985007F3E18 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		152B87AF1DC5270A00C9B171 /* RedBird.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RedBird.entitlements; sourceTree = "<group>"; };
+		1540F5C81DB217D400BCF825 /* RedBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1540F5CB1DB217D400BCF825 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1540F5CC1DB217D400BCF825 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1540F5CF1DB217D400BCF825 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1540F5D11DB217D400BCF825 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1540F5D41DB217D400BCF825 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1540F5D61DB217D400BCF825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1540F5C51DB217D400BCF825 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				151CC0621DB38985007F3E18 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		151CC0601DB38985007F3E18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				151CC0611DB38985007F3E18 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1540F5BF1DB217D400BCF825 = {
+			isa = PBXGroup;
+			children = (
+				1540F5CA1DB217D400BCF825 /* RedBird */,
+				1540F5C91DB217D400BCF825 /* Products */,
+				151CC0601DB38985007F3E18 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1540F5C91DB217D400BCF825 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1540F5C81DB217D400BCF825 /* RedBird.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1540F5CA1DB217D400BCF825 /* RedBird */ = {
+			isa = PBXGroup;
+			children = (
+				152B87AF1DC5270A00C9B171 /* RedBird.entitlements */,
+				1540F5CB1DB217D400BCF825 /* AppDelegate.h */,
+				1540F5CC1DB217D400BCF825 /* AppDelegate.m */,
+				1540F5D11DB217D400BCF825 /* Assets.xcassets */,
+				1540F5D31DB217D400BCF825 /* MainMenu.xib */,
+				1540F5D61DB217D400BCF825 /* Info.plist */,
+				1540F5CE1DB217D400BCF825 /* Supporting Files */,
+			);
+			path = RedBird;
+			sourceTree = "<group>";
+		};
+		1540F5CE1DB217D400BCF825 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1540F5CF1DB217D400BCF825 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1540F5C71DB217D400BCF825 /* RedBird */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1540F5D91DB217D400BCF825 /* Build configuration list for PBXNativeTarget "RedBird" */;
+			buildPhases = (
+				1540F5C41DB217D400BCF825 /* Sources */,
+				1540F5C51DB217D400BCF825 /* Frameworks */,
+				1540F5C61DB217D400BCF825 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedBird;
+			productName = RedBird;
+			productReference = 1540F5C81DB217D400BCF825 /* RedBird.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1540F5C01DB217D400BCF825 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Hope;
+				TargetAttributes = {
+					1540F5C71DB217D400BCF825 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 1540F5C31DB217D400BCF825 /* Build configuration list for PBXProject "RedBird" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1540F5BF1DB217D400BCF825;
+			productRefGroup = 1540F5C91DB217D400BCF825 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1540F5C71DB217D400BCF825 /* RedBird */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1540F5C61DB217D400BCF825 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1540F5D21DB217D400BCF825 /* Assets.xcassets in Resources */,
+				1540F5D51DB217D400BCF825 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1540F5C41DB217D400BCF825 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1540F5D01DB217D400BCF825 /* main.m in Sources */,
+				1540F5CD1DB217D400BCF825 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1540F5D31DB217D400BCF825 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1540F5D41DB217D400BCF825 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1540F5D71DB217D400BCF825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRELINK_LIBS = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1540F5D81DB217D400BCF825 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRELINK_LIBS = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1540F5DA1DB217D400BCF825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RedBird/RedBird.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RedBird/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hope.RedBird;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1540F5DB1DB217D400BCF825 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RedBird/RedBird.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RedBird/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hope.RedBird;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1540F5C31DB217D400BCF825 /* Build configuration list for PBXProject "RedBird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1540F5D71DB217D400BCF825 /* Debug */,
+				1540F5D81DB217D400BCF825 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1540F5D91DB217D400BCF825 /* Build configuration list for PBXNativeTarget "RedBird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1540F5DA1DB217D400BCF825 /* Debug */,
+				1540F5DB1DB217D400BCF825 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1540F5C01DB217D400BCF825 /* Project object */;
+}
